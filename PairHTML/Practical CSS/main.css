@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    /* border: 1px solid #7ecca4 */
+ }
+
+#container{
+    border: 1px solid #7ecca4;
+    height:100%;
+    width: 100%;
+    position: absolute;
+    padding: 25px;
+}
+
+.row {
+    border: 1px solid #dddddd;
+  
+}
+
+.col.w30 {
+    width: 30%;
+    position: relative;
+    float:left;
+    display: block;
+    height:100%;
+    
+}
+
+.col.w70 {
+    width: 70%;
+    position: relative;
+    float:right;
+    display:block;
+    height:100%;
+   
+}
+
+.row.h20{
+    height:20%;
+}
+
+.row.h40 {
+    height:40%;
+}
+
+.row.h80{
+    height:80%;
+}
